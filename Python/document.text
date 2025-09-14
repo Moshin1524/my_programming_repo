@@ -1,0 +1,148 @@
+#my fisrt python program
+print("Hello, World!")
+
+
+
+
+"""
+   Thanks to everyone who helped me to learn python programming language. 
+    """
+if 5>2: #the condition is true
+    print("Five is greater than two!")
+
+
+    
+
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+
+def hisfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+hisfunc()
+
+print("Python is " + x)
+
+
+
+
+
+x, y, z = "Firoz", "Shifat", "Imran"
+print(x)
+print(y)
+print(z)
+print(x,y,z)
+print(x+y+z)
+
+
+a=5
+b=10
+print(a+b)
+
+m=5
+n="Polash"
+# print(m+n)    #it will show the error because we can't add integer with string
+
+p=str(m)+n
+print(p)#it will not show the error because we convert integer to string
+
+
+
+a = str("Hello World")	                                str	
+
+b = int(20)	                                            int
+
+c = float(20.5)	                                        float
+
+d = complex(1j)	                                        complex
+
+e = list(("apple", "banana", "cherry"))	                list
+
+f = tuple(("apple", "banana", "cherry"))	            tuple
+
+g = range(6)	                                        range
+
+h = dict(name="John", age=36)	                        dict
+
+i = set(("apple", "banana", "cherry"))	                set
+
+j = frozenset(("apple", "banana", "cherry"))	        frozenset
+
+k = bool(5)	                                            bool
+
+l = bytes(5)	                                        bytes
+
+m = bytearray(5)	                                    bytearray
+
+n = memoryview(bytes(5))	                            memoryview
+
+
+
+print(a)
+print(type(a))
+print(b)
+print(type(b))
+print(c)
+print(type(c))
+print(d)
+print(type(d))
+print(e)
+print(type(e))
+print(f)
+print(type(f))
+print(g)
+print(type(g))
+print(h)
+print(type(h))
+print(i)
+print(type(i))
+print(j)
+print(type(j))
+print(k)
+print(type(k))
+print(l)
+print(type(l))
+print(m)
+print(type(m))
+print(n)
+print(type(n))
+
+
+Uotputs are BELOW
+
+"""
+Hello World
+<class 'str'>
+20
+<class 'int'>
+20.5
+<class 'float'>
+1j
+<class 'complex'>
+['apple', 'banana', 'cherry']
+<class 'list'>
+('apple', 'banana', 'cherry')
+<class 'tuple'>
+range(0, 6)
+<class 'range'>
+{'name': 'John', 'age': 36}
+<class 'dict'>
+{'apple', 'banana', 'cherry'}
+<class 'set'>
+frozenset({'apple', 'banana', 'cherry'})
+<class 'frozenset'>
+True
+<class 'bool'>
+b'\x00\x00\x00\x00\x00'
+<class 'bytes'>
+bytearray(b'\x00\x00\x00\x00\x00')
+<class 'bytearray'>
+<memory at 0x75236ad45a80>
+<class 'memoryview'>
+"""
