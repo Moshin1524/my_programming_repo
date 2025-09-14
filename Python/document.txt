@@ -24,7 +24,6 @@ myfunc()
 def hisfunc():
   x = "fantastic"
   print("Python is " + x)
-
 hisfunc()
 
 print("Python is " + x)
